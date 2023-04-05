@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attendance App</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		button {
+			padding: 10px 20px;
+			background-color: #4285F4;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s ease-in-out;
+		}
+		button:hover {
+			background-color: #3367D6;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Importance of Attendance App</h1>
+		<p>An attendance app can be incredibly beneficial for schools, colleges, and universities. With the help of an attendance app, teachers can easily track students' attendance and ensure that they attend classes regularly. Here are some benefits of using an attendance app:</p>
+		<ul>
+			<li>Eliminates the need for manual attendance taking</li>
+			<li>Makes attendance tracking more accurate and efficient</li>
+			<li>Reduces the possibility of errors and fraud</li>
+			<li>Helps teachers identify students who are frequently absent and take necessary steps to address the issue</li>
+			<li>Provides real-time attendance data to parents, teachers, and administrators</li>
+		</ul>
+		<p>Our attendance app uses location and biometrics to mark attendance, making it even more secure and reliable. Try it out for yourself!</p>
+		<button>Mark Attendance</button>
+		<?php
+			if(isset($_POST['submit'])) {
+				// code to mark attendance based on location and biometrics
+			}
+		?>
+	</div>
+</body>
+</html>
